@@ -12,12 +12,12 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/lg/my90ds/proprietary/lib,system/lib)
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/lge/my90ds/proprietary/lib,system/lib)
 
-PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/lg/my90ds/proprietary/bin,system/bin)
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/lge/my90ds/proprietary/bin,system/bin)
 
-PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/lg/my90ds/proprietary/etc,system/etc)
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/lge/my90ds/proprietary/etc,system/etc)
 
-PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/lg/my90ds/proprietary/vendor,system/vendor)
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/lge/my90ds/proprietary/vendor,system/vendor)
 
-PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/lg/my90ds/proprietary/xbin,system/xbin)
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/lge/my90ds/proprietary/xbin,system/xbin)
